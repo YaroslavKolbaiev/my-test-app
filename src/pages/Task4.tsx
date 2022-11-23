@@ -58,7 +58,7 @@ export const Task4 = () => {
                 <p>{`Metal Color: ${product.metalColor}`}</p>
                 <p>{`Stone Shape: ${product.stoneShape}`}</p>
                 <p>{`Gemstone color: ${product.gemstoneColor}`}</p>
-                <p className="is-size-3 has-text-weight-bold has-text-centered">999.00 $</p>
+                <p className="is-size-3 has-text-weight-bold has-text-centered">999.0 $</p>
               </div>
             </div>
           </div>

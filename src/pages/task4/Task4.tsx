@@ -9,6 +9,7 @@ interface Product {
   metalColor: string;
   stoneShape: string;
   gemstoneColor: string;
+  price: string
 }
 
 export const Task4 = () => {
@@ -35,6 +36,13 @@ export const Task4 = () => {
   return (
     <div className="section">
       <div className="container">
+        <h1 className="title">Task 4</h1>
+        <div className="content">
+          <p>Write script that displays a list of products from server response data.</p>
+          <p>Request method: GET</p>
+          <p>Server returns encoded JSON string in base64</p>
+        </div>
+        <hr />
       <div className="columns is-mobile">
         {products.map(product => (
           <div 
@@ -58,7 +66,7 @@ export const Task4 = () => {
                 <p>{`Metal Color: ${product.metalColor}`}</p>
                 <p>{`Stone Shape: ${product.stoneShape}`}</p>
                 <p>{`Gemstone color: ${product.gemstoneColor}`}</p>
-                <p className="is-size-3 has-text-weight-bold has-text-centered">999.0 $</p>
+                <p className="is-size-3 has-text-weight-bold has-text-centered">{product.price}</p>
               </div>
             </div>
           </div>

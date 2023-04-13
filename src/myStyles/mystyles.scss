@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+$one-column: 576px;
+$two-columns: 992px;
+
+
+$tablet: $one-column;
+$desktop: $two-columns;
+
+@import "../../node_modules/bulma/bulma.sass";

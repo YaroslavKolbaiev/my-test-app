@@ -36,7 +36,7 @@ Write script that displays a list of products from server response data. (you ma
 Request method: GET
 Server returns encoded JSON string in base64
 
-## Task 5 (1-2 days)
+## Task 5
 
 Please implement the following task using React and Redux/MobX.
 
